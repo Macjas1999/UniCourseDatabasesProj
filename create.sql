@@ -20,7 +20,9 @@ CREATE TABLE Guests (
 
 CREATE TABLE Rooms (
     room_number INT PRIMARY KEY,
-    capacity INT NOT NULL CHECK (capacity > 0)
+    capacity INT NOT NULL CHECK (capacity > 0),
+    is_available BOOLEAN NOT NULL DEFAULT true,
+    has_balcony BOOLEAN NOT NULL
 );
 
 CREATE TABLE Reservations (

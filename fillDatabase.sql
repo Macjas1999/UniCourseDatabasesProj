@@ -25,20 +25,20 @@ VALUES
 -- Dodanie pokoi
 INSERT INTO Rooms (room_number, capacity)
 VALUES
-(101, 2),
-(102, 3),
-(103, 2),
-(104, 2),
-(105, 1),
-(106, 3),
-(107, 4),
-(201, 1),
-(202, 4),
-(203, 3),
-(204, 2),
-(205, 2),
-(206, 1),
-(207, 4);
+(101, 2, true, true),
+(102, 3, true, false),
+(103, 2, true, false),
+(104, 2, true, true),
+(105, 1, true, false),
+(106, 3, true, false),
+(107, 4, true, true),
+(201, 1, true, true),
+(202, 4, true, false),
+(203, 3, true, false),
+(204, 2, true, true),
+(205, 2, true, false),
+(206, 1, true, false),
+(207, 4, true, true);
 
 -- Dodanie rezerwacji
 INSERT INTO Reservations (reservation_id, room_number, guest_id, number_of_people, check_in_date, check_out_date)
