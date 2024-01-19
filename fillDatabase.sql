@@ -23,7 +23,7 @@ VALUES
 (20, 'Kinga', 'Klimek', 'Orzeszkowej 12', '62-789', 'Elbląg', '01270543210');
 
 -- Dodanie pokoi
-INSERT INTO Rooms (room_number, capacity)
+INSERT INTO Rooms (room_number, capacity, is_available, has_balcony)
 VALUES
 (101, 2, true, true),
 (102, 3, true, false),
