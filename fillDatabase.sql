@@ -1,26 +1,26 @@
 -- Dodanie gości
 INSERT INTO Guests (guest_id, first_name, last_name, street, postal_code, city, PESEL)
 VALUES
-(1, 'Marian', 'Rejewski', 'Połabska 25', '60-345', 'Poznań', '12345678901'),
-(2, 'Anna', 'Kowalska', 'Batorego 18', '80-001', 'Gdańsk', '23456789012'),
-(3, 'Piotr', 'Nowak', 'Słowiańska 7', '01-234', 'Warszawa', '34567890123'),
-(4, 'Ewa', 'Wiśniewska', 'Lecha 12', '44-555', 'Kraków', '45678901234'),
-(5, 'Michał', 'Dąbrowski', 'Mazurska 33', '20-987', 'Białystok', '56789012345'),
-(6, 'Katarzyna', 'Lewandowska', 'Wrocławska 56', '54-321', 'Wrocław', '67890123456'),
-(7, 'Adam', 'Kowalczyk', 'Podlaska 89', '33-111', 'Lublin', '78901234567'),
+(1, 'Marian', 'Rejewski', 'Połabska 25', '60-345', 'Poznań', '03242478901'),
+(2, 'Anna', 'Kowalska', 'Batorego 18', '80-001', 'Gdańsk', '89050789012'),
+(3, 'Piotr', 'Nowak', 'Słowiańska 7', '01-234', 'Warszawa', '97062390123'),
+(4, 'Ewa', 'Wiśniewska', 'Lecha 12', '44-555', 'Kraków', '45070901234'),
+(5, 'Michał', 'Dąbrowski', 'Mazurska 33', '20-987', 'Białystok', '56083012345'),
+(6, 'Katarzyna', 'Lewandowska', 'Wrocławska 56', '54-321', 'Wrocław', '67090123456'),
+(7, 'Adam', 'Kowalczyk', 'Podlaska 89', '33-111', 'Lublin', '78101234567'),
 (8, 'Alicja', 'Zielińska', 'Łazienna 45', '90-876', 'Szczecin', '89012345678'),
-(9, 'Jan', 'Szymański', 'Sienkiewicza 3', '11-223', 'Bydgoszcz', '90123456789'),
-(10, 'Magdalena', 'Kaczmarek', 'Paderewskiego 22', '70-654', 'Gdynia', '01234567890'),
-(11, 'Rafał', 'Pawlak', 'Śląska 8', '40-987', 'Katowice', '10987654321'),
-(12, 'Karolina', 'Górska', 'Czarnieckiego 11', '99-876', 'Radom', '21098765432'),
-(13, 'Tomasz', 'Jankowski', 'Słowackiego 14', '22-333', 'Lódź', '32109876543'),
-(14, 'Natalia', 'Mazur', 'Poniatowskiego 55', '55-666', 'Olsztyn', '43210987654'),
-(15, 'Łukasz', 'Witkowski', 'Wielkopolska 87', '88-765', 'Płock', '54321098765'),
-(16, 'Izabela', 'Kubiak', 'Kościuszki 19', '10-101', 'Kielce', '65432109876'),
-(17, 'Marcin', 'Olszewski', 'Konopnickiej 34', '77-888', 'Rzeszów', '76543210987'),
-(18, 'Monika', 'Grabowska', 'Królowej Jadwigi 67', '19-283', 'Słupsk', '87654321098'),
-(19, 'Jakub', 'Jastrzębski', 'Kasprowicza 90', '30-405', 'Tarnów', '98765432109'),
-(20, 'Kinga', 'Klimek', 'Orzeszkowej 12', '62-789', 'Elbląg', '09876543210');
+(9, 'Jan', 'Szymański', 'Sienkiewicza 3', '11-223', 'Bydgoszcz', '90122756789'),
+(10, 'Magdalena', 'Kaczmarek', 'Paderewskiego 22', '70-654', 'Gdynia', '01232567890'),
+(11, 'Rafał', 'Pawlak', 'Śląska 8', '40-987', 'Katowice', '99080654321'),
+(12, 'Karolina', 'Górska', 'Czarnieckiego 11', '99-876', 'Radom', '87090765432'),
+(13, 'Tomasz', 'Jankowski', 'Słowackiego 14', '22-333', 'Lódź', '69100876543'),
+(14, 'Natalia', 'Mazur', 'Poniatowskiego 55', '55-666', 'Olsztyn', '99010987654'),
+(15, 'Łukasz', 'Witkowski', 'Wielkopolska 87', '88-765', 'Płock', '69021098765'),
+(16, 'Izabela', 'Kubiak', 'Kościuszki 19', '10-101', 'Kielce', '65032109876'),
+(17, 'Marcin', 'Olszewski', 'Konopnickiej 34', '77-888', 'Rzeszów', '02241210987'),
+(18, 'Monika', 'Grabowska', 'Królowej Jadwigi 67', '19-283', 'Słupsk', '87052321098'),
+(19, 'Jakub', 'Jastrzębski', 'Kasprowicza 90', '30-405', 'Tarnów', '98061432109'),
+(20, 'Kinga', 'Klimek', 'Orzeszkowej 12', '62-789', 'Elbląg', '01270543210');
 
 -- Dodanie pokoi
 INSERT INTO Rooms (room_number, capacity)
